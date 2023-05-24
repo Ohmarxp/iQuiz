@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iQuiz</title>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <link rel="icon" href="./Assets/Images/coding quiz image.png" />
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <button id="view-scores" type="submit">
+                <h3>View High Scores</h3>
+            </button>
+            <div id="time"></div>
+        </div>
+        
+        </div>
+        <div id="header">
+            <h1>Coding Quiz Challenge!</h1>
+            <button id="start">Start</button>
+        </div>
+        
+    </header>
+
+    <main class="quiz">
+        <section>
+            <div id="questions" class="hide">
+                <h2 id="question-title"></h2>
+                <ol id="answers"></ol>
+            </div>
+        </section>
+    
+        <section id="gameOver" class="hide">
+            <div>
+                <h2 id="done">Game over!</h2>
+                <p id="score"></p>
+                <form>
+                    <label>Enter initials here:</label>
+                    <input id="initials" type="text" />
+                    <button id="submit" type="submit">
+                        <h3>Submit</h3>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <section id="leaderboard" class="hide">
+            <h2>High Scores</h2>
+            <div>
+                <ol id="high-scores"></ol>
+                <button id="go-back">Go Back</button>
+                <button id="clear-scores">Clear High Scores</button>
+            </div>
+        </section>
+    </main>
+    
+
+
+    <script src="./Assets/JavaScript/index.js"></script>
+</body>
+
+</html>
