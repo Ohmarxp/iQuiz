@@ -31,11 +31,11 @@ THEN I can save my initials and score
 In addition, the user can access the high scores menu by pressing the "View High Scores" 
 button in the top left corner of the website.
 
-![Deployed webpage](assets/images/)
+![Deployed webpage](Assets/images/deployed-image.jpg)
 
 ## Credits
 
-Link to deployed application: 
+Link to deployed application: https://ohmarxp.github.io/iQuiz/
 
 ## License
 
